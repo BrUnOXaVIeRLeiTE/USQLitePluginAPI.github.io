@@ -1,0 +1,72 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>[DATABASE] Immediate Command: LOAD (Object)</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../../index.html">USQLite Plugin</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style" href="../SQLite.html">SQLite</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">[DATABASE] Immediate Command: LOAD (Object)</a>
+      <h1 class="title_style">[DATABASE] Immediate Command: LOAD (Object)</h1>
+      <p>Executes a SQL Command based on this Database's Table Columns that can Serialize Target Object's Properties into SQL DB File.<br />      This SQL Command will bypass Save Queue, executing to the DB immediately, progress won't be tracked.<br />      Excessive use of Immediate Save may cause concurrency issues and Database locks, so use this wisely!<br />      This will not generate any Progress Reports or Interface Events.</p>
+      <img src="../img/nd_img_DB_OBJ_ImmediateLOAD.png" />
+      <h3 class="title_style">Inputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">In</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Target</div>
+              <div class="param_type">SQLite Object Reference</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Object</div>
+              <div class="param_type">Object Object Reference</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="title_style">Outputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Out</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
